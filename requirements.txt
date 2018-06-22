@@ -1,0 +1,2 @@
+pyOpenSSL==18.0.0
+chardet==3.0.4
