@@ -13,6 +13,7 @@ class DebugInterceptor(ReqIntercept, RspIntercept):
     def deal_response(self, response):
 
         if response.get_header("Content-Type") and 'image'in response.get_header("Content-Type"):
+
             response = None
 
         return response

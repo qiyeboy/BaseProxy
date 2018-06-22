@@ -607,13 +607,13 @@ class InterceptPlug(object):
 
 class ReqIntercept(InterceptPlug):
 
-    def deal_request(self,data):
+    def deal_request(self,request):
         pass
 
 
 class RspIntercept(InterceptPlug):
 
-    def deal_response(self,data):
+    def deal_response(self,response):
         pass
 
 
