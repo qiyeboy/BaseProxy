@@ -18,7 +18,7 @@ setup(
     download_url='https://github.com/qiyeboy/BaseProxy',
     packages=['baseproxy'],
     install_requires = [
-        'pyOpenSSL==18.0.0',
+        'pyOpenSSL==26.0.0',
         'chardet==3.0.4'
     ]
 )
